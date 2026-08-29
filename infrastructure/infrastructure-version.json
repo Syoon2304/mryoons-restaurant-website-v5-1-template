@@ -1,0 +1,14 @@
+{
+  "infrastructure_version": "restaurant-v5.1-infrastructure-2.0.0",
+  "release_date": "2026-08-28",
+  "workflow_generation": "v5.1-unified-phone-and-desktop",
+  "restaurant_system_pack": "5.1",
+  "restaurant_business_assets": "5.1",
+  "phone_package_contract": "2.0.0",
+  "site_manifest_contract": "2.0",
+  "public_policy_contract": "2.0.0",
+  "minimum_python": "3.11",
+  "github_runner_python": "3.13",
+  "node_test_runtime": ">=20",
+  "status": "production-candidate-requires-live-activation-rehearsal"
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": "2.0",
+  "site_name": "Harbor Lantern Test Kitchen",
+  "business_type": "restaurant",
+  "public_domain": "https://restaurant-v5-1-test.pages.dev",
+  "package_version": "2026.08.28-test.1",
+  "build_date": "2026-08-28T12:00:00Z",
+  "stage": "production",
+  "workflow_version": "5.1",
+  "system_version": "restaurant-system-pack-5.1",
+  "business_assets_version": "restaurant-business-assets-5.1",
+  "repository_package_spec": "5.1",
+  "design_lock_reference": "fixture-design-lock-2026-08-28",
+  "final_approval_reference": "fixture-final-approval-2026-08-28",
+  "primary_action": {
+    "label": "Call 239-410-2846",
+    "url": "tel:+12394102846"
+  },
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Harbor Lantern Test Kitchen | Restaurant Website QA"
+    },
+    {
+      "path": "menu.html",
+      "title": "Acceptance Test Menu | Harbor Lantern Test Kitchen"
+    },
+    {
+      "path": "contact.html",
+      "title": "Contact Fixture | Harbor Lantern Test Kitchen"
+    },
+    {
+      "path": "privacy.html",
+      "title": "Privacy Fixture | Harbor Lantern Test Kitchen"
+    },
+    {
+      "path": "404.html",
+      "title": "Page Not Found | Harbor Lantern Test Kitchen"
+    }
+  ],
+  "external_media": [],
+  "public_documents": [],
+  "forms": [
+    {
+      "id": "general-contact",
+      "enabled": true,
+      "action": "/api/contact",
+      "page": "contact.html",
+      "purpose": "general inquiry",
+      "fallback": "tel:+12394102846",
+      "privacy_page": "privacy.html",
+      "turnstile_action": "contact_submit"
+    }
+  ]
+}
