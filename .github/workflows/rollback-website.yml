@@ -67,7 +67,7 @@ jobs:
           TARGET_COMMIT: ${{ inputs.target_commit }}
         shell: bash
         run: |
-          if git diff --quiet -- public; then
+          if git diff --quiet HEAD -- public; then
             echo "The selected public/ files already match main." >> "$GITHUB_STEP_SUMMARY"
             exit 0
           fi
